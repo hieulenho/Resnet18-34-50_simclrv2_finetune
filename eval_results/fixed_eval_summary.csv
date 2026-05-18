@@ -1,0 +1,2 @@
+checkpoint,best_acc_in_ckpt,eval_val_loss,eval_val_acc,correct,total
+D:\ML3\checkpoints_finetune\finetune_resnet50_best.pt,79.8625,0.662812805891037,79.875,6390,8000
