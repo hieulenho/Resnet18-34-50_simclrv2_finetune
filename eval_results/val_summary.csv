@@ -1,2 +1,0 @@
-checkpoint,arch,num_classes,val_loss,val_acc,correct,total,elapsed_sec
-D:\ML3\checkpoints_finetune\finetune_resnet50_epoch_100.pt,resnet50,10,2.2911042766571046,0.11775,942,8000,4.903341054916382
