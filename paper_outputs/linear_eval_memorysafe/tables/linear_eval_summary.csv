@@ -1,0 +1,2 @@
+method,backbone,pretrain_checkpoint,best_epoch,best_val_acc,val_loss,correct,total,lr,weight_decay
+SimCLRv2 Linear Evaluation,resnet50,simclrv2_resnet50_epoch_300.pt,24,84.55,0.654684184551239,6764,8000,0.1,0.0

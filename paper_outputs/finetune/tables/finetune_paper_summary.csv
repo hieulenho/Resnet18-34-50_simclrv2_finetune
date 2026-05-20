@@ -1,0 +1,2 @@
+method,backbone,pretrain_checkpoint,best_experiment,finetune_proj_layers,lr,weight_decay,best_epoch,top1_acc,top5_acc,val_loss
+SimCLRv2 pretrain + fine-tune,resnet50,simclrv2_resnet50_epoch_300.pt,ft0_lr002,0,0.02,0.0,113,82.7,98.8375,0.7397638506889344

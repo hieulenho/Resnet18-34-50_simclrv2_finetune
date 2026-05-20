@@ -1,0 +1,2 @@
+checkpoint,checkpoint_epoch,checkpoint_best_acc,mode,arch,image_size,finetune_proj_layers,lr,eval_val_loss,eval_top1_acc,eval_top5_acc,correct,total
+D:\ML3\checkpoints_finetune\finetune_resnet50_best.pt,115,82.65,finetune,resnet50,96,0,0.02,0.7735376372337341,82.65,98.7875,6612,8000
