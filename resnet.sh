@@ -53,16 +53,16 @@ $PYTHON train_resnet.py \
   --data-root ./data \
   --download \
   --image-size 96 \
-  --epochs 300 \
-  --batch-size 128 \
+  --epochs 400 \
+  --batch-size 256 \
   --optimizer lars \
-  --lr 0.3 \
+  --lr 0.05 \
   --warmup-epochs 15 \
   --weight-decay 1e-4 \
   --proj-layers 3 \
   --proj-dim 128 \
   --temperature 0.2 \
-  --num-workers 1 \
+  --num-workers 4 \
   --out-dir ./checkpoints \
   --save-every 20 \
   --log-every 20
