@@ -4,7 +4,7 @@
 #PBS -m abe
 #PBS -M hieulenho8@gmail.com
 #PBS -q long_gpu
-#PBS -l select=1:ncpus=1:ngpus=1:mem=24G
+#PBS -l select=1:ncpus=4:ngpus=1:mem=30G
 
 cd "$PBS_O_WORKDIR" || exit 1
 
@@ -17,7 +17,7 @@ set -ex
 
 PYTHON=/opt/apps/python/3.8.10/bin/python3
 export PATH=/opt/apps/python/3.8.10/bin:$PATH
-export OMP_NUM_THREADS=1
+export OMP_NUM_THREADS=4
 
 echo "===== JOB INFO ====="
 echo "Job ID: $PBS_JOBID"
