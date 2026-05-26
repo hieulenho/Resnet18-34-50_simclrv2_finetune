@@ -1,0 +1,17 @@
+method,top1
+"Supervised
+ResNet18
+(previous)",61.8
+"SimCLR
+ResNet18
+linear eval
+(previous)",78.5
+"SimCLRv2
+ResNet50
+fine-tune
+backbone",82.7
+"This checkpoint
+fixed eval",83.8875
+"SimCLRv2
+ResNet50
+linear eval",84.55

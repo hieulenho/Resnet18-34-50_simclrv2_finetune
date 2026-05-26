@@ -1,0 +1,2 @@
+method,checkpoint,checkpoint_name,arch,dataset,image_size,num_classes,finetune_proj_layers,epoch_in_ckpt,best_acc_in_ckpt,eval_val_loss,eval_top1_percent,eval_top5_percent,correct,total
+SimCLRv2 ResNet50 fine-tune fixed eval,d:\ML3\checkpoints_finetune_2\finetune_resnet50_best.pt,finetune_resnet50_best.pt,resnet50,stl10,96,10,1,115,83.8875,0.7326701827049256,83.8875,98.7625,6711,8000
