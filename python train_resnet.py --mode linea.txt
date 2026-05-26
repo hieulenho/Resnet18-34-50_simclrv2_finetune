@@ -7,8 +7,10 @@ python yolov5_from_scratch/tools/train_one_step.py --rebuild-cache
 
 python yolov5_from_scratch/utils/train.py --data yolov5_from_scratch/datasets/coco2017/dataset.yaml --epochs 100 --batch-size 16 --img-size 640 --workers 4 --cache-labels --val --amp
 python yolov5_from_scratch/utils/train.py --resume yolov5_from_scratch/runs/train/exp/weights/last.pt --val
-
+python3 utils/train.py --resume runs/train/exp/weights/last.pt --val
 -125
+
+tail -f "$(ls -t logs/*.log | head -n 1)"
 
 Expand-Archive robust_reward_design_full_lab.zip -Force
 cd robust_reward_design_lab

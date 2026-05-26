@@ -3,7 +3,7 @@
 #PBS -j oe
 #PBS -m abe
 #PBS -M hieulenho8@gmail.com
-#PBS -l select=4:ncpus=4:ngpus=1:mpiprocs=1:mem=32G
+#PBS -l select=2:ncpus=4:ngpus=2:mpiprocs=1:mem=30G
 #PBS -q para_gpu
 
 cd "$PBS_O_WORKDIR" || exit 1
