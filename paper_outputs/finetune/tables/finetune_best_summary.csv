@@ -1,2 +1,0 @@
-experiment,best_val_top1,best_epoch,include_proj_layers,lr,weight_decay,checkpoint
-ft0_lr002,82.7,113,0,0.02,0.0,D:\ML3\paper_outputs\finetune\checkpoints_2\ft0_lr002\best.pt
